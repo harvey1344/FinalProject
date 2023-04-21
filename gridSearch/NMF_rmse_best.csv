@@ -1,0 +1,2 @@
+n_factors,lr_bu,lr_bi,reg_bu,reg_bi,n_epochs,biased
+20,0.02,0.02,0.05,0.2,70,True
