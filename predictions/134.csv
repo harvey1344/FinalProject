@@ -1,11 +1,11 @@
-Hybrid,KNN Basic
-Braveheart (1995),Braveheart (1995)
-In the Line of Fire (1993),In the Line of Fire (1993)
-"Last of the Mohicans, The (1992)","Last of the Mohicans, The (1992)"
-Austin Powers: International Man of Mystery (1997),Austin Powers: International Man of Mystery (1997)
-"Full Monty, The (1997)","Full Monty, The (1997)"
-"Mask of Zorro, The (1998)",Office Space (1999)
-Being John Malkovich (1999),Being John Malkovich (1999)
-Toy Story 2 (1999),Toy Story 2 (1999)
-Chicken Run (2000),Chicken Run (2000)
-Almost Famous (2000),Almost Famous (2000)
+Hybrid,KNN Basic,KNN Baseline,SVD,SVD++,NMF (Bias),NMF (Unbias),Slope One
+Braveheart (1995),Braveheart (1995),Rumble in the Bronx (1995),Toy Story (1995),Toy Story (1995),Toy Story (1995),Toy Story (1995),Braveheart (1995)
+In the Line of Fire (1993),In the Line of Fire (1993),In the Line of Fire (1993),Braveheart (1995),Braveheart (1995),Braveheart (1995),Braveheart (1995),In the Line of Fire (1993)
+"Last of the Mohicans, The (1992)","Last of the Mohicans, The (1992)",Rudy (1993),Forrest Gump (1994),Forrest Gump (1994),Forrest Gump (1994),Forrest Gump (1994),"Last of the Mohicans, The (1992)"
+Austin Powers: International Man of Mystery (1997),Austin Powers: International Man of Mystery (1997),Grosse Pointe Blank (1997),Aladdin (1992),Aladdin (1992),Sneakers (1992),Aladdin (1992),Austin Powers: International Man of Mystery (1997)
+"Full Monty, The (1997)","Full Monty, The (1997)",Contact (1997),Sneakers (1992),Sneakers (1992),Saving Private Ryan (1998),Sneakers (1992),"Full Monty, The (1997)"
+"Mask of Zorro, The (1998)",Office Space (1999),Saving Private Ryan (1998),Saving Private Ryan (1998),Saving Private Ryan (1998),Airplane! (1980),Saving Private Ryan (1998),Office Space (1999)
+Being John Malkovich (1999),Being John Malkovich (1999),My Cousin Vinny (1992),Airplane! (1980),American Beauty (1999),American Beauty (1999),American Beauty (1999),Being John Malkovich (1999)
+Toy Story 2 (1999),Toy Story 2 (1999),Enemy of the State (1998),American Beauty (1999),Being John Malkovich (1999),Being John Malkovich (1999),Being John Malkovich (1999),Toy Story 2 (1999)
+Chicken Run (2000),Chicken Run (2000),Office Space (1999),Being John Malkovich (1999),Patriot Games (1992),Patriot Games (1992),Remember the Titans (2000),Chicken Run (2000)
+Almost Famous (2000),Almost Famous (2000),High Fidelity (2000),Remember the Titans (2000),Remember the Titans (2000),X-Men (2000),Meet the Parents (2000),Almost Famous (2000)
