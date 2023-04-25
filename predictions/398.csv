@@ -1,11 +1,11 @@
-Hybrid,KNN Basic
-Taxi Driver (1976),Taxi Driver (1976)
-"Godfather, The (1972)","Godfather, The (1972)"
-"Clockwork Orange, A (1971)",Dial M for Murder (1954)
-Full Metal Jacket (1987),"Clockwork Orange, A (1971)"
-Chinatown (1974),Chinatown (1974)
-"Manchurian Candidate, The (1962)","Manchurian Candidate, The (1962)"
-This Is Spinal Tap (1984),This Is Spinal Tap (1984)
-Roger & Me (1989),Run Lola Run (Lola rennt) (1998)
-Rushmore (1998),"Sixth Sense, The (1999)"
-Run Lola Run (Lola rennt) (1998),Dog Day Afternoon (1975)
+Hybrid,KNN Basic,KNN Baseline,SVD,SVD++,NMF (Bias),NMF (Unbias),Slope One
+Taxi Driver (1976),Taxi Driver (1976),Taxi Driver (1976),Twelve Monkeys (1995),Twelve Monkeys (1995),Forrest Gump (1994),Blade Runner (1982),Taxi Driver (1976)
+"Godfather, The (1972)","Godfather, The (1972)","Professional, The (a.k.a. Leon: The Professional) (1994)",Blade Runner (1982),Blade Runner (1982),Blade Runner (1982),"Sting, The (1973)","Godfather, The (1972)"
+"Clockwork Orange, A (1971)",Dial M for Murder (1954),Blade Runner (1982),Annie Hall (1977),Annie Hall (1977),Bananas (1971),Heathers (1989),"Clockwork Orange, A (1971)"
+Full Metal Jacket (1987),"Clockwork Orange, A (1971)",Fargo (1996),"Sting, The (1973)","Sting, The (1973)",Annie Hall (1977),Butch Cassidy and the Sundance Kid (1969),Full Metal Jacket (1987)
+Chinatown (1974),Chinatown (1974),2001: A Space Odyssey (1968),Stand by Me (1986),Stand by Me (1986),"Sting, The (1973)",L.A. Confidential (1997),Chinatown (1974)
+"Manchurian Candidate, The (1962)","Manchurian Candidate, The (1962)",Raiders of the Lost Ark (1981),L.A. Confidential (1997),L.A. Confidential (1997),Stand by Me (1986),Saving Private Ryan (1998),"Manchurian Candidate, The (1962)"
+This Is Spinal Tap (1984),This Is Spinal Tap (1984),Chinatown (1974),Run Lola Run (Lola rennt) (1998),Saving Private Ryan (1998),Butch Cassidy and the Sundance Kid (1969),Run Lola Run (Lola rennt) (1998),This Is Spinal Tap (1984)
+Roger & Me (1989),Run Lola Run (Lola rennt) (1998),Raising Arizona (1987),American Beauty (1999),Run Lola Run (Lola rennt) (1998),Saving Private Ryan (1998),American Beauty (1999),Roger & Me (1989)
+Rushmore (1998),"Sixth Sense, The (1999)",L.A. Confidential (1997),Wonder Boys (2000),American Beauty (1999),Run Lola Run (Lola rennt) (1998),Wonder Boys (2000),Run Lola Run (Lola rennt) (1998)
+Run Lola Run (Lola rennt) (1998),Dog Day Afternoon (1975),Say Anything... (1989),Best in Show (2000),Wonder Boys (2000),American Beauty (1999),Animal House (1978),"Sixth Sense, The (1999)"

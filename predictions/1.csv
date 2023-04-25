@@ -1,11 +1,11 @@
-Hybrid,KNN Basic
-Fargo (1996),Fargo (1996)
-Gigi (1958),Gigi (1958)
-Cinderella (1950),Cinderella (1950)
-One Flew Over the Cuckoo's Nest (1975),One Flew Over the Cuckoo's Nest (1975)
-Ben-Hur (1959),Ben-Hur (1959)
-Saving Private Ryan (1998),Saving Private Ryan (1998)
-"Christmas Story, A (1983)","Christmas Story, A (1983)"
-Ferris Bueller's Day Off (1986),Ferris Bueller's Day Off (1986)
-Awakenings (1990),Awakenings (1990)
-Toy Story 2 (1999),Toy Story 2 (1999)
+Hybrid,KNN Basic,KNN Baseline,SVD,SVD++,NMF (Bias),NMF (Unbias),Slope One
+Fargo (1996),Fargo (1996),Star Wars: Episode IV - A New Hope (1977),Toy Story (1995),Toy Story (1995),Toy Story (1995),Toy Story (1995),Fargo (1996)
+Gigi (1958),Gigi (1958),Schindler's List (1993),"Secret Garden, The (1993)","Secret Garden, The (1993)","Secret Garden, The (1993)","Secret Garden, The (1993)",Gigi (1958)
+Cinderella (1950),Cinderella (1950),My Fair Lady (1964),Mary Poppins (1964),Mary Poppins (1964),Mary Poppins (1964),Mary Poppins (1964),Cinderella (1950)
+One Flew Over the Cuckoo's Nest (1975),One Flew Over the Cuckoo's Nest (1975),"Wizard of Oz, The (1939)",E.T. the Extra-Terrestrial (1982),E.T. the Extra-Terrestrial (1982),E.T. the Extra-Terrestrial (1982),E.T. the Extra-Terrestrial (1982),One Flew Over the Cuckoo's Nest (1975)
+Ben-Hur (1959),Ben-Hur (1959),Driving Miss Daisy (1989),One Flew Over the Cuckoo's Nest (1975),One Flew Over the Cuckoo's Nest (1975),One Flew Over the Cuckoo's Nest (1975),One Flew Over the Cuckoo's Nest (1975),Ben-Hur (1959)
+Saving Private Ryan (1998),Saving Private Ryan (1998),Saving Private Ryan (1998),Saving Private Ryan (1998),Saving Private Ryan (1998),Saving Private Ryan (1998),"Last Days of Disco, The (1998)",Saving Private Ryan (1998)
+"Christmas Story, A (1983)","Christmas Story, A (1983)",Miracle on 34th Street (1947),Run Lola Run (Lola rennt) (1998),Run Lola Run (Lola rennt) (1998),Run Lola Run (Lola rennt) (1998),Saving Private Ryan (1998),"Christmas Story, A (1983)"
+Ferris Bueller's Day Off (1986),Ferris Bueller's Day Off (1986),Run Lola Run (Lola rennt) (1998),"Sixth Sense, The (1999)","Sixth Sense, The (1999)","Sixth Sense, The (1999)",Run Lola Run (Lola rennt) (1998),Ferris Bueller's Day Off (1986)
+Awakenings (1990),Awakenings (1990),"Sixth Sense, The (1999)",Awakenings (1990),Awakenings (1990),Awakenings (1990),"Sixth Sense, The (1999)",Awakenings (1990)
+Toy Story 2 (1999),Toy Story 2 (1999),"Christmas Story, A (1983)","Girl, Interrupted (1999)","Girl, Interrupted (1999)","Girl, Interrupted (1999)",Awakenings (1990),Toy Story 2 (1999)
