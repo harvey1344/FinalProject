@@ -1,41 +1,33 @@
-from surprise import Dataset, NormalPredictor, accuracy
-from collections import defaultdict
+import pandas as pd
+import numpy as np
+from sklearn.neural_network import MLPRegressor
+from sklearn.model_selection import train_test_split
+from sklearn.preprocessing import LabelEncoder
+from sklearn.metrics import mean_squared_error
 
-def get_top_n(predictions, n=10):
-    """Return the top-N recommendation for each user from a set of predictions.
+# Load the ml-100k dataset
+header = ['user_id', 'item_id', 'rating', 'timestamp']
+df = pd.read_csv('./ml-100k/u.data', sep='\t', names=header)
 
-    Args:
-        predictions(list of Prediction objects): The list of predictions, as
-            returned by the test method of an algorithm.
-        n(int): The number of recommendation to output for each user. Default
-            is 10.
+# Preprocess the dataset
+le = LabelEncoder()
+df['user_id'] = le.fit_transform(df['user_id'])
+df['item_id'] = le.fit_transform(df['item_id'])
 
-    Returns:
-    A dict where keys are user (raw) ids and values are lists of tuples:
-        [(raw item id, rating estimation), ...] of size n.
-    """
+X = df[['user_id', 'item_id']].values
+y = df['rating'].values
 
-    # First map the predictions to each user.
-    top_n = defaultdict(list)
-    for uid, iid, true_r, est, _ in predictions:
-        top_n[uid].append((iid, est))
+X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)
 
-    # Then sort the predictions for each user and retrieve the k highest ones.
-    for uid, user_ratings in top_n.items():
-        user_ratings.sort(key=lambda x: x[1], reverse=True)
-        top_n[uid] = user_ratings[:n]
+# Define and train the neural network model
+model = MLPRegressor(hidden_layer_sizes=(64, 32), activation='relu', solver='adam', random_state=42)
+model.fit(X_train, y_train)
 
-    return top_n
+# Make predictions on the test set
+y_pred = model.predict(X_test)
 
+# Calculate RMSE
+rmse = np.sqrt(mean_squared_error(y_test, y_pred))
+print('Root Mean Squared Error (RMSE):', rmse)
 
-data = Dataset.load_builtin("ml-100k")
-trainset = data.build_full_trainset()
-algo = NormalPredictor()
-algo.fit(trainset)
-
-# Than predict ratings for all pairs (u, i) that are NOT in the training set.
-testset = trainset.build_anti_testset()
-predictions = algo.test(testset)
-
-print(get_top_n(predictions,1))
 
