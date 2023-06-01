@@ -7,15 +7,16 @@ from surprise.accuracy import rmse, mse, mae
 
 
 def testing_algorithm(algo, data):
-    # Define the K-fold cross-validation iterator with 10 splits
-    kf = KFold(n_splits=5, random_state=1)
 
     # Initialize arrays to store the scores
-    fit_times = np.array([])
+    fit_times, predict_times = np.array([])
     predict_times = np.array([])
     rmse_scores = np.array([])
     mse_scores = np.array([])
     mae_scores = np.array([])
+
+    # Define the K-fold cross-validation iterator with 5 splits
+    kf = KFold(n_splits=5, random_state=1)
 
     # Perform K-fold cross-validation
     for trainset, testset in kf.split(data):
