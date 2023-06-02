@@ -28,9 +28,8 @@ class UserItemKNNv2(AlgoBase):
         # generate predictions for each model and combine
         user_prediction = self.user_algo.predict(u, i).est
         item_prediction = self.item_algo.predict(u, i).est
-        combine = self.u_weight * user_prediction + (1 - self.i_weight) * item_prediction
-        print(combine > 5 == True)
-        return combine
+        return self.u_weight * user_prediction + (1 - self.i_weight) * item_prediction
+
 
     def predict(self, uid, iid, r_ui=None, clip=True, verbose=False):
         # return prediction object if possible
