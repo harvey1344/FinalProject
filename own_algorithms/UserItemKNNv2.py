@@ -17,6 +17,8 @@ class UserItemKNNv2(AlgoBase):
         # create reccomendation components
         self.user_algo = KNNBasic(k=55, sim_options={'name': 'Pearson', 'user_based': True}, verbose=False)
         self.item_algo = KNNBasic(k=60, sim_options={'name': 'cosine', 'user_based': False}, verbose=False)
+        self.user_algo = KNNBasic(k=55, sim_options=self.sim_options_user, verbose=False)
+        self.item_algo = KNNBasic(k=60, sim_options=self.sim_options_item , verbose=False)
 
     def fit(self, trainset):
         # train both components
