@@ -37,7 +37,8 @@ def testing_algorithm(algo, data):
 
     # Return the mean of the RMSE, MSE, MAE,fit time and predict time
     return np.array(
-        [np.mean(rmse_scores), np.mean(mse_scores), np.mean(mae_scores), np.mean(fit_times), np.mean(predict_times)])
+        [np.mean(rmse_scores), np.mean(mse_scores), np.mean(mae_scores),
+         np.mean(fit_times), np.mean(predict_times)])
 
 
 def get_top_n(predictions, n=10):

@@ -1,11 +1,22 @@
 # FinalProject
-The code for my CMP 3rd year final project. To act as supporting material for my project portfolio.
-This repository contains all the code, data and visualisations. All the code should be ran using the jupiter notebooks,
-and to avoid any data issues, inconsistencies please ensure they are ran in order. 
-The folder `own_algoithms` contains implimentation of my algorithms using  `algobase` calss from the `Surprise` libray,
-in this folder can also be found an assortment of helper functions that are referenced in the portfolio and neccassary for
-my project to run. 
 
-Please note, most of the paramater optimisations take place in the notebooks however the matrix factorisation models required
-extreme computational power and therefore was outsourced to py files to be ran on better processing power. Notably SVDpp took between
-12-20 hours to run on a Ryzen 1700X 100% on 16 virtual cores so please run at your own risk.
+This folder contains the code for my CMP 3rd year final project "A Survey, Analysis And Evaluation Of
+Machine Learning Models For
+Recommendation Systems". The folder contains all the code, data and visualisations that was used
+in my report and includes extras that were omitted from the study
+for various reasons.
+
+The folder names should be inutive but for full disclosure 
+`own_algorithms` contains my the hybrid algorithms built using `Surprise.algobase`
+and various helper function including `top-n` and `testing_algorithm`.
+
+Folders `KNN Graphs` and `Matrix Graphs` contain the graphs for
+each independent analysis. `data_graphs` contains graphs that was used in methodology for data exploration
+and `predictions` contain csvs for user 1, 134, and 398 with predictions for the algorithms used.
+
+It should be noted the notebooks are ordered, and this is the order they should be run in, if this required.
+Failing to do so may cause odd results as each notebook reads data created from a previous notebook. This excludes the data preface 
+notebooks
+
+I should also be noted, some algorithms trialed in this study could cause heavy
+strain on CPU load.

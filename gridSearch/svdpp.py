@@ -6,7 +6,7 @@ data= Dataset.load_builtin('ml-100k')
 algo= SVDpp()
 print("Hello")
 
-param_grid= {'n_factors':[20,50,100,200,300,400],
+svdpp_param_grid= {'n_factors':[20,50,100,200,300,400],
              'lr_all':[0.005, 0.01, 0.02, 0.05],
              'reg_all':[0.05,0.1,0.2, 0.3],
              'n_epochs':[30,40,50,60,70]}
